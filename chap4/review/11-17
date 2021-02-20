@@ -1,0 +1,27 @@
+11.
+double *pted = &ted;
+cout << *pted << endl;
+
+12.
+float *ptreacle = treacle;
+cout << *ptreacle << *(ptreacle + 9) << endl;
+
+13.
+see 13.cpp
+
+14.
+The code works and will print the address of the string.
+
+15.
+fish *afish = new fish;
+cin >> afish->type;
+
+17.
+#include <string>
+#include <array>
+#include <vector>
+
+const int str_num = 10;
+std::vector<std::string> v(str_num);
+std::array<std::string, str_num> a;
+
